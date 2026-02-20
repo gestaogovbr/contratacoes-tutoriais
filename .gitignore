@@ -1,0 +1,6 @@
+/.vscode
+/.quarto/
+**/*.quarto_ipynb
+/.env
+
+.DS_Store

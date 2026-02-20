@@ -1,0 +1,23 @@
+project:
+  type: book
+
+book:
+  title: "🛒 *Tutorial Compras.gov.br* – Conteúdo Local e Margem de Preferência"
+  subtitle: Versão 0.1
+  date: "2026-02-20"
+  chapters:
+    - index.qmd
+    - conteudo_local.qmd
+    - margem_de_preferencia.qmd
+
+lang: pt-BR
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    toc: true
+    number-sections: false
+  pdf:
+    documentclass: scrreprt

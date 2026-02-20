@@ -1,0 +1,161 @@
+# 🇧🇷 Requisito de conteúdo local {.unnumbered}
+
+Quando uma licitação possui itens com exigência de conteúdo local, o agente de contratação deve informar tal requisito durante o cadastro da compra no sistema. O passo-a-passo é detalhado abaixo.
+
+{{< include reutilizados/login.qmd >}}
+
+{{< include reutilizados/cadastramento_licitacao.qmd >}}
+
+## Cadastramento dos itens
+
+No [passo anterior](#cadastramento-licitacao), informamos que a licitação inserida no sistema possuía o total de apenas um item. Agora, vamos detalhar este item e habilitar a exigência de conteúdo local para ele.
+
+Clique em **Itens** na parte inferior da tela que mostra os dados básicos da licitação cadastrada.
+
+![](imagens/06_siasg.png){ width=80% fig-align=center }
+
+O sistema informará que *a licitação ainda não possui itens cadastrados*. Clique em **Incluir itens** pra cadastrá-los.
+
+![](imagens/07_siasg.png){ width=80% fig-align=center }
+
+O Catálogo de Materiais e Serviços será aberto em uma nova janela.
+
+![](imagens/08_catalogo.png){ width=80% fig-align=center }
+
+::: {#tela-pesquisa-catalogo}
+Pesquise pelo termo ou código CATMAT desejado.
+:::
+
+![](imagens/09_catalogo.png){ width=80% fig-align=center }
+
+Após indicar a **unidade de fornecimento** adequada, clique em **Adicionar**, para incluir este item na sua seleção.
+
+![](imagens/10_catalogo.png){ width=80% fig-align=center }
+
+O sistema informará que o item foi incluído com sucesso e o ícone que representa um carrinho de compras aumentará seu contador em uma unidade.
+
+![](imagens/11_catalogo.png){ width=80% fig-align=center }
+
+::: {.callout-note}
+Para todos os demais itens, faça uma nova [busca no catálogo de materiais](#tela-pesquisa-catalogo) e adicione os demais itens da licitação na sua seleção.
+:::
+
+Ao clicar no ícone do carrinho de compras, a lista de itens selecionados será exibida. Clique em **Adicionar ao Siasgnet** para que os itens selecionados sejam transportados para a licitação que foi cadastrada no [passo anterior](#cadastramento-licitacao).
+
+![](imagens/12_catalogo.png){ width=80% fig-align=center }
+
+::: {#tela-itens-da-licitacao}
+Os itens adicionados serão exibidos na tela do SIASGnet com *inconsistências* que precisam ser sanadas. Clique em **Alterar** ao lado de um dos itens, para cadastrar os detalhes faltantes para cada item, tais como:
+:::
+
+- Quantidade;
+- Critério de Julgamento;
+- Valor Total (R$) etc.
+
+![](imagens/13_siasg.png){ width=80% fig-align=center }
+
+::: {.callout-important}
+Na tela **Alterar Item da Licitação**, confira se as informações do item estão compatíveis com o seu edital.
+:::
+
+Para habilitar a exigência de conteúdo local para o item:
+
+1. Marque *Sim* na pergunta **É uma aquisição PAC?** e
+2. Ative a caixa **Exigência de Conteúdo Nacional (CIIA-PAC)?**
+
+::: {.callout-note}
+Uma mesma licitação pode conter itens que exigem conteúdo local e itens que não exigem.
+:::
+
+Finalmente, clique em **Salvar Item**.
+
+![](imagens/14_siasg.png){ width=80% fig-align=center }
+
+O sistema pedirá uma confirmação de que tal exigência de conteúdo local está em conformidade com o disposto nas Resoluções CIIA-PAC. Clique em **OK** para confirmar, se realmente for o caso.
+
+![](imagens/15_siasg.png){ width=80% fig-align=center }
+
+O sistema informará se as informações pendentes para o item foram cadastradas com sucesso.
+
+![](imagens/16_siasg.png){ width=80% fig-align=center }
+
+::: {.callout-note}
+Para todos os demais itens, retorne à tela [**Itens da Licitação**](#tela-itens-da-licitacao) e cadastre as informações faltantes para cada item.
+:::
+
+## Publicação da contratação
+
+Na tela **Itens da Licitação**, clique em **Gerar Relação de Itens**.
+
+![](imagens/17_siasg.png){ width=80% fig-align=center }
+
+Em seguida, na tela **Gerar Relação de Itens**, clique em **Gerar Relação de Itens**.
+
+O sistema exibirá uma mensagem informando que a relação de itens foi gerada.
+
+![](imagens/18_siasg.png){ width=80% fig-align=center }
+
+Clique em **Transferir Edital** para ir para a próxima tela.
+
+![](imagens/19_siasg.png){ width=80% fig-align=center }
+
+Na tela **Transferir Edital**, clique em **Escolher arquivo** e selecione o arquivo do edital.
+
+Em seguida, clique em **Transferir** para que o arquivo seja carregado no SIASGnet.
+
+![](imagens/20_siasg.png){ width=80% fig-align=center }
+
+Uma mensagem será exibida, informando que o edital foi transferido com sucesso.
+
+Clique em **Incluir Aviso de Licitação** para ir para a próxima tela.
+
+![](imagens/21_siasg.png){ width=80% fig-align=center }
+![](imagens/22_siasg.png){ width=80% fig-align=center }
+
+Na tela **Incluir Aviso de Licitação**, preencha as seguintes seções com as datas e horários da fase externa da licitação:
+
+- Publicação/Divulgação do Aviso de Licitação;
+- Disponibilidade do Edital,
+- Entrega da Proposta; e
+- Abertura da Licitação.
+
+Finalmente, clique em **Salvar Aviso**.
+
+![](imagens/23_siasg.png){ width=80% fig-align=center }
+
+O sistema exibirá uma mensagem informando que o Aviso de Licitação foi incluído.
+
+Clique em **Disponibilizar para Publicação/Divulgação** para passar à próxima tela.
+
+
+![](imagens/25_siasg.png){ width=80% fig-align=center }
+
+Na tela **Disponibilizar para Publicação/Divulgação**, confira os dados do Resumo do Aviso da Licitação e clique em **Disponibilizar para Publicação/Divulgação**.
+
+::: {.callout-note}
+Não é obrigatório o preenchimento das informações sobre o Empenho Referente ao Contrato com a Imprensa Nacional.
+:::
+
+![](imagens/26_siasg.png){ width=80% fig-align=center }
+
+O sistema exibirá um alerta informando que o aviso será publicado no Diário Oficial da União, no PNCP e no Compras.gov na data informada pelo usuário.
+
+Clique em **OK** para confirmar, se realmente for o caso.
+
+![](imagens/27_siasg.png){ width=80% fig-align=center }
+
+O sistema exibirá uma mensagem informando que o Aviso de Licitação será publicado.
+
+![](imagens/28_siasg.png){ width=80% fig-align=center }
+
+## Apresentação de propostas por parte dos licitantes
+
+Após a licitação, seus itens e seu edital terem sido inseridos no sistema com sucesso, a sessão pública será aberta na data informada para apresentação de propostas.
+
+Somente serão aceitas propostas que declararem:
+
+> que o material ofertado se enquadra nas regras de conteúdo nacional estabelecido na Legislação Vigente.
+
+Do contrário, uma mensagem de erro será exibida e a proposta recusada.
+
+![](imagens/29_propostas.png){ width=80% fig-align=center }

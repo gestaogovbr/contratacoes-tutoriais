@@ -1,0 +1,31 @@
+## Cadastramento da licitação {#cadastramento-licitacao}
+
+Na tela principal do Compras.gov.br, clique no menu do usuário e em seguida em **Divulgação de Compras**.
+
+![](imagens/02c_compras_gov.png){ width=100% fig-align=center }
+
+A tela principal do SIASGnet será exibida. No menu, clique em **Licitação** > **Incluir Licitação Tradicional**.
+
+![](imagens/03_siasg.png){ width=80% fig-align=center }
+
+Preencha todos os campos obrigátórios, tais como:
+
+- Modalidade de Licitação;
+- Forma de Realização;
+- Modo de Disputa;
+- Valor Total da Compra (R$);
+- Quantidade de Itens;
+- Objeto;
+- CPF do Responsável etc.
+
+::: {.callout-tip}
+**CPF do Responsável:** Clique no ícone da lupa após informar um CPF válido, para que o nome do responsável seja buscado automaticamente.
+:::
+
+Clique em **Salvar**, na parte inferior da página.
+
+![](imagens/04_siasg.png){ width=80% fig-align=center }
+
+Certifique-se de que a licitação foi cadastrada com sucesso.
+
+![](imagens/05_siasg.png){ width=80% fig-align=center }

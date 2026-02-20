@@ -1,0 +1,13 @@
+## Login no Compras.gov.br
+
+Acesse o Portal de Compras do Governo Federal por meio do endereço [www.gov.br/compras](www.gov.br/compras) e clique em **Acesso ao Sistema**.
+
+![](imagens/01_portal_de_compras.png){ width=80% fig-align=center }
+
+O agente de contratação deve clicar em **Governo**.
+
+![](imagens/02a_compras_gov_login.png){ width=80% fig-align=center}
+
+Em seguida, faça login na sua conta gov.br normalmente, informando seu CPF e senha.
+
+![](imagens/02b_compras_gov_login.png){ width=80% fig-align=center}
