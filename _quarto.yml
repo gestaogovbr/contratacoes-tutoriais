@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: docs
 
 book:
   title: "🛒 *Tutorial Compras.gov.br* – Conteúdo Local e Margem de Preferência"
