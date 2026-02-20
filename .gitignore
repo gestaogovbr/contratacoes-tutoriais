@@ -2,5 +2,6 @@
 /.quarto/
 **/*.quarto_ipynb
 /.env
+*.pdf
 
 .DS_Store

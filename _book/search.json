@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "🛒 Tutorial Compras.gov.br – Conteúdo Local e Margem de Preferência",
+    "section": "",
+    "text": "ℹ️ Apresentação\nUma política de contratações públicas tem maior chance de sucesso quando os agentes de contratação e os potenciais fornecedores têm clareza quanto ao uso que se deve fazer dos sistemas de compras, para que os direitos garantidos por essa política cheguem aos seus beneficiários.\nEm sua primeira versão, este manual apresenta o passo-a-passo que se deve seguir para o correto cadastramento e divulgação de licitações com exigência de conteúdo local para um ou mais de seus itens.",
+    "crumbs": [
+      "ℹ️ Apresentação"
+    ]
+  },
+  {
+    "objectID": "conteudo_local.html",
+    "href": "conteudo_local.html",
+    "title": "🇧🇷 Requisito de conteúdo local",
+    "section": "",
+    "text": "Login no Compras.gov.br\nQuando uma licitação possui itens com exigência de conteúdo local, o agente de contratação deve informar tal requisito durante o cadastro da compra no sistema. O passo-a-passo é detalhado abaixo.\nAcesse o Portal de Compras do Governo Federal por meio do endereço www.gov.br/compras e clique em Acesso ao Sistema.\nO agente de contratação deve clicar em Governo.\nEm seguida, faça login na sua conta gov.br normalmente, informando seu CPF e senha.",
+    "crumbs": [
+      "🇧🇷 Requisito de conteúdo local"
+    ]
+  },
+  {
+    "objectID": "conteudo_local.html#cadastramento-licitacao",
+    "href": "conteudo_local.html#cadastramento-licitacao",
+    "title": "🇧🇷 Requisito de conteúdo local",
+    "section": "Cadastramento da licitação",
+    "text": "Cadastramento da licitação\nNa tela principal do Compras.gov.br, clique no menu do usuário e em seguida em Divulgação de Compras.\n\n\n\n\n\nA tela principal do SIASGnet será exibida. No menu, clique em Licitação &gt; Incluir Licitação Tradicional.\n\n\n\n\n\nPreencha todos os campos obrigátórios, tais como:\n\nModalidade de Licitação;\nForma de Realização;\nModo de Disputa;\nValor Total da Compra (R$);\nQuantidade de Itens;\nObjeto;\nCPF do Responsável etc.\n\n\n\n\n\n\n\nDica\n\n\n\nCPF do Responsável: Clique no ícone da lupa após informar um CPF válido, para que o nome do responsável seja buscado automaticamente.\n\n\nClique em Salvar, na parte inferior da página.\n\n\n\n\n\nCertifique-se de que a licitação foi cadastrada com sucesso.",
+    "crumbs": [
+      "🇧🇷 Requisito de conteúdo local"
+    ]
+  },
+  {
+    "objectID": "conteudo_local.html#cadastramento-dos-itens",
+    "href": "conteudo_local.html#cadastramento-dos-itens",
+    "title": "🇧🇷 Requisito de conteúdo local",
+    "section": "Cadastramento dos itens",
+    "text": "Cadastramento dos itens\nNo passo anterior, informamos que a licitação inserida no sistema possuía o total de apenas um item. Agora, vamos detalhar este item e habilitar a exigência de conteúdo local para ele.\nClique em Itens na parte inferior da tela que mostra os dados básicos da licitação cadastrada.\n\n\n\n\n\nO sistema informará que a licitação ainda não possui itens cadastrados. Clique em Incluir itens pra cadastrá-los.\n\n\n\n\n\nO Catálogo de Materiais e Serviços será aberto em uma nova janela.\n\n\n\n\n\n\nPesquise pelo termo ou código CATMAT desejado.\n\n\n\n\n\n\nApós indicar a unidade de fornecimento adequada, clique em Adicionar, para incluir este item na sua seleção.\n\n\n\n\n\nO sistema informará que o item foi incluído com sucesso e o ícone que representa um carrinho de compras aumentará seu contador em uma unidade.\n\n\n\n\n\n\n\n\n\n\n\nNota\n\n\n\nPara todos os demais itens, faça uma nova busca no catálogo de materiais e adicione os demais itens da licitação na sua seleção.\n\n\nAo clicar no ícone do carrinho de compras, a lista de itens selecionados será exibida. Clique em Adicionar ao Siasgnet para que os itens selecionados sejam transportados para a licitação que foi cadastrada no passo anterior.\n\n\n\n\n\n\nOs itens adicionados serão exibidos na tela do SIASGnet com inconsistências que precisam ser sanadas. Clique em Alterar ao lado de um dos itens, para cadastrar os detalhes faltantes para cada item, tais como:\n\n\nQuantidade;\nCritério de Julgamento;\nValor Total (R$) etc.\n\n\n\n\n\n\n\n\n\n\n\n\nImportante\n\n\n\nNa tela Alterar Item da Licitação, confira se as informações do item estão compatíveis com o seu edital.\n\n\nPara habilitar a exigência de conteúdo local para o item:\n\nMarque Sim na pergunta É uma aquisição PAC? e\nAtive a caixa Exigência de Conteúdo Nacional (CIIA-PAC)?\n\n\n\n\n\n\n\nNota\n\n\n\nUma mesma licitação pode conter itens que exigem conteúdo local e itens que não exigem.\n\n\nFinalmente, clique em Salvar Item.\n\n\n\n\n\nO sistema pedirá uma confirmação de que tal exigência de conteúdo local está em conformidade com o disposto nas Resoluções CIIA-PAC. Clique em OK para confirmar, se realmente for o caso.\n\n\n\n\n\nO sistema informará se as informações pendentes para o item foram cadastradas com sucesso.\n\n\n\n\n\n\n\n\n\n\n\nNota\n\n\n\nPara todos os demais itens, retorne à tela Itens da Licitação e cadastre as informações faltantes para cada item.",
+    "crumbs": [
+      "🇧🇷 Requisito de conteúdo local"
+    ]
+  },
+  {
+    "objectID": "conteudo_local.html#publicação-da-contratação",
+    "href": "conteudo_local.html#publicação-da-contratação",
+    "title": "🇧🇷 Requisito de conteúdo local",
+    "section": "Publicação da contratação",
+    "text": "Publicação da contratação\nNa tela Itens da Licitação, clique em Gerar Relação de Itens.\n\n\n\n\n\nEm seguida, na tela Gerar Relação de Itens, clique em Gerar Relação de Itens.\nO sistema exibirá uma mensagem informando que a relação de itens foi gerada.\n\n\n\n\n\nClique em Transferir Edital para ir para a próxima tela.\n\n\n\n\n\nNa tela Transferir Edital, clique em Escolher arquivo e selecione o arquivo do edital.\nEm seguida, clique em Transferir para que o arquivo seja carregado no SIASGnet.\n\n\n\n\n\nUma mensagem será exibida, informando que o edital foi transferido com sucesso.\nClique em Incluir Aviso de Licitação para ir para a próxima tela.\n \nNa tela Incluir Aviso de Licitação, preencha as seguintes seções com as datas e horários da fase externa da licitação:\n\nPublicação/Divulgação do Aviso de Licitação;\nDisponibilidade do Edital,\nEntrega da Proposta; e\nAbertura da Licitação.\n\nFinalmente, clique em Salvar Aviso.\n\n\n\n\n\nO sistema exibirá uma mensagem informando que o Aviso de Licitação foi incluído.\nClique em Disponibilizar para Publicação/Divulgação para passar à próxima tela.\n\n\n\n\n\nNa tela Disponibilizar para Publicação/Divulgação, confira os dados do Resumo do Aviso da Licitação e clique em Disponibilizar para Publicação/Divulgação.\n\n\n\n\n\n\nNota\n\n\n\nNão é obrigatório o preenchimento das informações sobre o Empenho Referente ao Contrato com a Imprensa Nacional.\n\n\n\n\n\n\n\nO sistema exibirá um alerta informando que o aviso será publicado no Diário Oficial da União, no PNCP e no Compras.gov na data informada pelo usuário.\nClique em OK para confirmar, se realmente for o caso.\n\n\n\n\n\nO sistema exibirá uma mensagem informando que o Aviso de Licitação será publicado.",
+    "crumbs": [
+      "🇧🇷 Requisito de conteúdo local"
+    ]
+  },
+  {
+    "objectID": "conteudo_local.html#apresentação-de-propostas-por-parte-dos-licitantes",
+    "href": "conteudo_local.html#apresentação-de-propostas-por-parte-dos-licitantes",
+    "title": "🇧🇷 Requisito de conteúdo local",
+    "section": "Apresentação de propostas por parte dos licitantes",
+    "text": "Apresentação de propostas por parte dos licitantes\nApós a licitação, seus itens e seu edital terem sido inseridos no sistema com sucesso, a sessão pública será aberta na data informada para apresentação de propostas.\nSomente serão aceitas propostas que declararem:\n\nque o material ofertado se enquadra nas regras de conteúdo nacional estabelecido na Legislação Vigente.\n\nDo contrário, uma mensagem de erro será exibida e a proposta recusada.",
+    "crumbs": [
+      "🇧🇷 Requisito de conteúdo local"
+    ]
+  },
+  {
+    "objectID": "margem_de_preferencia.html",
+    "href": "margem_de_preferencia.html",
+    "title": "🥈 Margem de preferência CICS",
+    "section": "",
+    "text": "Clique aqui para acessar o tutorial.",
+    "crumbs": [
+      "🥈 Margem de preferência CICS"
+    ]
+  }
+]
