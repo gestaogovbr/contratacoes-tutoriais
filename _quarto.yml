@@ -24,5 +24,6 @@ format:
       - brand
     toc: true
     number-sections: false
+    link-external-newwindow: true
   pdf:
     documentclass: scrreprt
