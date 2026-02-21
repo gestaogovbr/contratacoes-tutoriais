@@ -1,6 +1,10 @@
 # Requisito de conteúdo local {.unnumbered}
 
-Quando uma licitação possui itens com exigência de conteúdo local, o agente de contratação deve informar tal requisito durante o cadastro da compra no sistema. O passo-a-passo é detalhado abaixo.
+Algumas compras públicas exigem que os materiais ou serviços oferecidos contenham uma porcentagem mínima de insumos produzidos no Brasil. Esse requisito é chamado de **conteúdo local**.
+
+Este tutorial orienta você sobre como informar essa exigência no sistema Compras.gov.br ao registrar uma licitação. Ao ativar o requisito de conteúdo local, o sistema automaticamente rejeitará qualquer proposta que não atenda a essa exigência.
+
+Siga os passos abaixo para configurar corretamente sua licitação:
 
 {{< include reutilizados/login.qmd >}}
 
@@ -8,154 +12,196 @@ Quando uma licitação possui itens com exigência de conteúdo local, o agente 
 
 ## Cadastramento dos itens
 
-No [passo anterior](#cadastramento-licitacao), informamos que a licitação inserida no sistema possuía o total de apenas um item. Agora, vamos detalhar este item e habilitar a exigência de conteúdo local para ele.
+Agora você precisa adicionar os itens (produtos ou serviços) que serão licitados. No [passo anterior](#cadastramento-licitacao), criamos uma licitação básica. Nesta etapa, vamos detalhar os itens e indicar quais deles exigem conteúdo local.
+
+### Passo 1: Acessar a Seção Itens
 
 Clique em **Itens** na parte inferior da tela que mostra os dados básicos da licitação cadastrada.
 
 ![](imagens/06_siasg.png){ width=80% fig-align=center }
 
-O sistema informará que *a licitação ainda não possui itens cadastrados*. Clique em **Incluir itens** pra cadastrá-los.
+O sistema informará que *a licitação ainda não possui itens cadastrados*. Clique em **Incluir itens** para adicionar itens à sua licitação.
 
 ![](imagens/07_siasg.png){ width=80% fig-align=center }
 
-O Catálogo de Materiais e Serviços será aberto em uma nova janela.
+### Passo 2: Acessar o Catálogo de Materiais e Serviços
+
+O Catálogo de Materiais e Serviços será aberto em uma nova janela. Este catálogo contém todos os produtos e serviços que podem ser licitados pelo governo.
 
 ![](imagens/08_catalogo.png){ width=80% fig-align=center }
 
-::: {#tela-pesquisa-catalogo}
-Pesquise pelo termo ou código CATMAT desejado.
-:::
+### Passo 3: Pesquisar o Material ou Serviço {#tela-pesquisa-catalogo}
+
+Procure pelo material ou serviço que deseja adicionar. Você pode buscar pelo nome (por exemplo: "papel A4") ou pelo código CATMAT ou CATSER, que são os códigos identificadores no catálogo.
 
 ![](imagens/09_catalogo.png){ width=80% fig-align=center }
 
-Após indicar a **unidade de fornecimento** adequada, clique em **Adicionar**, para incluir este item na sua seleção.
+### Passo 4: Selecionar Itens
+
+Após encontrar o item desejado, selecione a **unidade de fornecimento** (por exemplo: unidade, caixa, quilograma, etc.) conforme necessário para sua compra. Em seguida, clique em **Adicionar** para incluir este item na sua seleção.
 
 ![](imagens/10_catalogo.png){ width=80% fig-align=center }
 
-O sistema informará que o item foi incluído com sucesso e o ícone que representa um carrinho de compras aumentará seu contador em uma unidade.
+O sistema confirmará que o item foi adicionado com sucesso. Você verá um ícone de carrinho de compras com um número indicando quantos itens foram selecionados.
 
 ![](imagens/11_catalogo.png){ width=80% fig-align=center }
 
 ::: {.callout-note}
-Para todos os demais itens, faça uma nova [busca no catálogo de materiais](#tela-pesquisa-catalogo) e adicione os demais itens da licitação na sua seleção.
+**Se você tem mais itens a adicionar:** Repita os passos 3 e 4 para cada item que faz parte de sua licitação. Todos os itens aparecerão no carrinho de compras.
 :::
 
-Ao clicar no ícone do carrinho de compras, a lista de itens selecionados será exibida. Clique em **Adicionar ao Siasgnet** para que os itens selecionados sejam transportados para a licitação que foi cadastrada no [passo anterior](#cadastramento-licitacao).
+### Passo 5: Transferir Itens para o SIASGnet
+
+Quando terminar de selecionar todos os itens, clique no ícone do carrinho de compras. Você verá a lista completa dos itens selecionados. Clique em **Adicionar ao SIASGnet** para transferir todos esses itens para a licitação que você criou anteriormente.
 
 ![](imagens/12_catalogo.png){ width=80% fig-align=center }
 
 ::: {#tela-itens-da-licitacao}
-Os itens adicionados serão exibidos na tela do SIASGnet com *inconsistências* que precisam ser sanadas. Clique em **Alterar** ao lado de um dos itens, para cadastrar os detalhes faltantes para cada item, tais como:
+### Passo 6: Completar Informações dos Itens
+
+Os itens aparecem na tela principal do SIASGnet, mas ainda faltam informações para completar o cadastro. Clique em **Alterar** ao lado de cada item para adicionar os detalhes que faltam:
 :::
 
-- Quantidade;
-- Critério de Julgamento;
-- Valor Total (R$) etc.
+- **Quantidade**: quanto você precisa desta item
+- **Critério de Julgamento**: como as propostas serão avaliadas (menor preço, técnica e preço, etc.)
+- **Valor Total**: quanto você está orçando para este item
+- E outras informações específicas conforme solicitado pelo sistema
 
 ![](imagens/13_siasg.png){ width=80% fig-align=center }
 
 ::: {.callout-important}
-Na tela **Alterar Item da Licitação**, confira se as informações do item estão compatíveis com o seu edital.
+Antes de salvar, **verifique se todas as informações correspondem ao que você escreveu no edital** da licitação. Qualquer diferença pode causar problemas.
 :::
 
-Para habilitar a exigência de conteúdo local para o item:
+### Passo 7: Ativar a Exigência de Conteúdo Local
 
-1. Marque *Sim* na pergunta **É uma aquisição PAC?** e
-2. Ative a caixa **Exigência de Conteúdo Nacional (CIIA-PAC)?**
+Para ativar a exigência de conteúdo local para este item, siga estas ações:
+
+1. Marque **Sim** na pergunta **É uma aquisição PAC?** (PAC refere-se ao programa de investimento do governo)
+2. Depois, ative (marque) a caixa **Exigência de Conteúdo Nacional**
 
 ::: {.callout-note}
-Uma mesma licitação pode conter itens que exigem conteúdo local e itens que não exigem.
+**Importante:** Você pode ter itens diferentes em uma mesma licitação. Alguns podem exigir conteúdo local enquanto outros não exigem. Configure cada item conforme sua necessidade.
 :::
 
-Finalmente, clique em **Salvar Item**.
+### Passo 8: Salvar o Item
+
+Clique em **Salvar Item** para registrar todas as informações do item.
 
 ![](imagens/14_siasg.png){ width=80% fig-align=center }
 
-O sistema pedirá uma confirmação de que tal exigência de conteúdo local está em conformidade com o disposto nas Resoluções CIIA-PAC. Clique em **OK** para confirmar, se realmente for o caso.
+### Passo 9: Confirmar a Exigência de Conteúdo Local
+
+O sistema pedirá uma confirmação sobre a exigência de conteúdo local. Você está confirmando que está em conformidade com as regulamentações de compras governamentais. Clique em **OK** para confirmar.
 
 ![](imagens/15_siasg.png){ width=80% fig-align=center }
 
-O sistema informará se as informações pendentes para o item foram cadastradas com sucesso.
+Uma mensagem de sucesso aparecerá confirmando que as informações foram salvas.
 
 ![](imagens/16_siasg.png){ width=80% fig-align=center }
 
 ::: {.callout-note}
-Para todos os demais itens, retorne à tela [**Itens da Licitação**](#tela-itens-da-licitacao) e cadastre as informações faltantes para cada item.
+**Se você tem mais itens:** Volte à tela [**Itens da Licitação**](#tela-itens-da-licitacao) e repita os passos 6 a 9 para cada item que precisa de configuração.
 :::
 
 ## Publicação da contratação
+
+Depois de configurar todos os itens, você precisa gerar um documento com a relação deles e fazer a licitação ser publicada oficialmente.
+
+### Passo 1: Gerar Relação de Itens
 
 Na tela **Itens da Licitação**, clique em **Gerar Relação de Itens**.
 
 ![](imagens/17_siasg.png){ width=80% fig-align=center }
 
-Em seguida, na tela **Gerar Relação de Itens**, clique em **Gerar Relação de Itens**.
+### Passo 2: Confirmar Geração da Relação
 
-O sistema exibirá uma mensagem informando que a relação de itens foi gerada.
+Uma nova tela aparecerá. Clique novamente em **Gerar Relação de Itens** para confirmar.
+
+O sistema confirmará que a relação de itens foi criada com sucesso.
 
 ![](imagens/18_siasg.png){ width=80% fig-align=center }
 
-Clique em **Transferir Edital** para ir para a próxima tela.
+### Passo 3: Avançar para Transferência do Edital
+
+Clique em **Transferir Edital** para avançar para a próxima etapa.
 
 ![](imagens/19_siasg.png){ width=80% fig-align=center }
 
-Na tela **Transferir Edital**, clique em **Escolher arquivo** e selecione o arquivo do edital.
+### Passo 4: Selecionar o Arquivo do Edital
 
-Em seguida, clique em **Transferir** para que o arquivo seja carregado no SIASGnet.
+Na tela **Transferir Edital**, você precisa enviar o arquivo do edital (o documento que contém as regras e condições da licitação). Clique em **Escolher arquivo** e selecione o arquivo do seu edital no seu computador.
+
+### Passo 5: Enviar o Edital
+
+Depois de selecionar o arquivo, clique em **Transferir** para enviar o edital para o sistema.
 
 ![](imagens/20_siasg.png){ width=80% fig-align=center }
 
-Uma mensagem será exibida, informando que o edital foi transferido com sucesso.
+Uma mensagem confirmará que o edital foi enviado com sucesso.
 
-Clique em **Incluir Aviso de Licitação** para ir para a próxima tela.
+### Passo 6: Incluir Aviso de Licitação
+
+Clique em **Incluir Aviso de Licitação** para prosseguir para a próxima etapa.
 
 ![](imagens/21_siasg.png){ width=80% fig-align=center }
-![](imagens/22_siasg.png){ width=80% fig-align=center }
 
-Na tela **Incluir Aviso de Licitação**, preencha as seguintes seções com as datas e horários da fase externa da licitação:
+### Passo 7: Informar Datas e Horários da Licitação
 
-- Publicação/Divulgação do Aviso de Licitação;
-- Disponibilidade do Edital,
-- Entrega da Proposta; e
-- Abertura da Licitação.
+Na tela **Incluir Aviso de Licitação**, você precisa informar as datas e horários importantes da sua licitação:
 
-Finalmente, clique em **Salvar Aviso**.
+- **Publicação/Divulgação do Aviso de Licitação**: quando o aviso será publicado
+- **Disponibilidade do Edital**: a partir de quando as empresas podem acessar o documento
+- **Entrega da Proposta**: data e hora limite para as empresas enviarem suas propostas
+- **Abertura da Licitação**: quando as propostas serão abertas e lidas
+
+Preencha essas informações conforme planejado para sua licitação. Depois, clique em **Salvar Aviso**.
 
 ![](imagens/23_siasg.png){ width=80% fig-align=center }
 
-O sistema exibirá uma mensagem informando que o Aviso de Licitação foi incluído.
+Uma mensagem confirmará que o Aviso de Licitação foi salvo com sucesso.
 
-Clique em **Disponibilizar para Publicação/Divulgação** para passar à próxima tela.
+### Passo 8: Preparar para Publicação
 
+Clique em **Disponibilizar para Publicação/Divulgação** para preparar a licitação para ser publicada online.
 
 ![](imagens/25_siasg.png){ width=80% fig-align=center }
 
-Na tela **Disponibilizar para Publicação/Divulgação**, confira os dados do Resumo do Aviso da Licitação e clique em **Disponibilizar para Publicação/Divulgação**.
+### Passo 9: Revisar e Disponibilizar para Publicação
+
+Na tela **Disponibilizar para Publicação/Divulgação**, você verá um resumo dos dados da licitação. Verifique se está correto e clique em **Disponibilizar para Publicação/Divulgação**.
 
 ::: {.callout-note}
-Não é obrigatório o preenchimento das informações sobre o Empenho Referente ao Contrato com a Imprensa Nacional.
+Não é obrigatório preencher as informações sobre "Empenho Referente ao Contrato com a Imprensa Nacional" nesta tela. Você pode deixar em branco se não for necessário.
 :::
 
 ![](imagens/26_siasg.png){ width=80% fig-align=center }
 
-O sistema exibirá um alerta informando que o aviso será publicado no Diário Oficial da União, no PNCP e no Compras.gov na data informada pelo usuário.
+### Passo 10: Confirmar Publicação nos Canais Oficiais
 
-Clique em **OK** para confirmar, se realmente for o caso.
+O sistema exibirá um aviso informando onde a licitação será publicada:
+- **Diário Oficial da União** (jornal oficial do governo)
+- **Portal PNCP** (portal de contratações públicas)
+- **Compras.gov.br** (este portal)
+
+Clique em **OK** para confirmar a publicação.
 
 ![](imagens/27_siasg.png){ width=80% fig-align=center }
 
-O sistema exibirá uma mensagem informando que o Aviso de Licitação será publicado.
+Uma mensagem de confirmação aparecerá indicando que a licitação será publicada nos canais oficiais na data que você especificou.
 
 ![](imagens/28_siasg.png){ width=80% fig-align=center }
 
-## Apresentação de propostas por parte dos licitantes
+Parabéns! Sua licitação com requisito de conteúdo local foi criada e publicada com sucesso.
 
-Após a licitação, seus itens e seu edital terem sido inseridos no sistema com sucesso, a sessão pública será aberta na data informada para apresentação de propostas.
+## O que acontece quando as empresas enviam propostas?
 
-Somente serão aceitas propostas que declararem:
+Depois que a data de abertura da licitação chega, as empresas podem enviar suas propostas (ofertas). O sistema automaticamente valida se cada proposta está em conformidade com os requisitos que você definiu.
 
-> que o material ofertado se enquadra nas regras de conteúdo nacional estabelecido na Legislação Vigente.
+Para os itens que você marcou como exigindo **conteúdo local**, o sistema só aceitará propostas de empresas que declararem explicitamente que:
 
-Do contrário, uma mensagem de erro será exibida e a proposta recusada.
+> o material ofertado se enquadra nas regras de conteúdo nacional estabelecido na Legislação Vigente.
+
+Se uma empresa tentar enviar uma proposta **sem fazer essa declaração**, o sistema automaticamente rejeitará a proposta e exibirá uma mensagem de erro. Isso garante que apenas materiais e serviços com conteúdo local adequado sejam considerados na sua licitação.
 
 ![](imagens/29_propostas.png){ width=80% fig-align=center }

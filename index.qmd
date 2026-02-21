@@ -1,5 +1,41 @@
 # Boas-vindas {.unnumbered}
 
-Uma política de contratações públicas tem maior chance de sucesso quando os agentes de contratação e os potenciais fornecedores têm clareza quanto ao uso que se deve fazer dos sistemas de compras, para que os direitos garantidos por essa política cheguem aos seus beneficiários.
+## Objetivo
 
-Em sua primeira versão, este manual apresenta o passo-a-passo que se deve seguir para o correto cadastramento e divulgação de licitações com exigência de conteúdo local para um ou mais de seus itens.
+Este guia apresenta tutoriais passo-a-passo para o uso dos sistemas de compras do governo federal. Os tutoriais são voltados para agentes de contratação e gestores de compras públicas que necessitam compreender os procedimentos necessários para registrar e divulgar licitações.
+
+## Público-alvo
+
+- Gestores de compras em órgãos públicos federais
+- Coordenadores de licitações
+- Agentes administrativos responsáveis por contratações
+
+## Conteúdo disponível
+
+- [**Requisito de conteúdo local**](conteudo_local.qmd): Procedimentos para cadastrar licitações que exigem insumos produzidos no Brasil
+- [**Margem de preferência**](margem_de_preferencia.qmd): Aplicação de políticas de margem de preferência, regulamentadas pela CICS e pela CIIA-PAC.
+
+## Como usar
+
+Cada tutorial está organizado em passos numerados sequenciais. Você pode:
+
+1. Selecionar o tema de interesse no menu lateral
+2. Seguir os passos conforme indicado
+3. Consultar as imagens para localizar os elementos na interface
+4. Verificar os boxes informativos para dicas adicionais
+
+::: {.callout-note}
+Você pode compartilhar ou acessar novamente qualquer página diretamente do endereço (URL) na barra do navegador.
+:::
+
+## Outras versões deste guia
+
+::: {.content-visible when-format="html"}
+Prefere usar o guia offline? Você pode baixar a versão em PDF:
+
+[📥 Baixar PDF completo](--Tutoriais-Compras.gov.br---para-Conteúdo-Local-e-Margem-de-Preferência-.pdf){.btn .btn-primary .btn-lg}
+:::
+
+::: {.content-visible when-format="pdf"}
+Para acessar a versão online deste guia, visite: **https://gestaogovbr.github.io/contratacoes-tutoriais/**
+:::
