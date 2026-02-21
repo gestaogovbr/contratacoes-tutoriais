@@ -8,6 +8,8 @@ book:
   title: |
     **Tutoriais Compras.gov.br**
     *para Conteúdo Local e Margem de Preferência*
+  repo-url: https://github.com/gestaogovbr/contratacoes-tutoriais
+  repo-actions: [edit, issue]
   chapters:
     - index.qmd
     - conteudo_local.qmd
