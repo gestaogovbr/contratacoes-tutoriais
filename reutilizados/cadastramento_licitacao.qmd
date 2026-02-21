@@ -1,31 +1,58 @@
 ## Cadastramento da licitação {#cadastramento-licitacao}
 
-Na tela principal do Compras.gov.br, clique no menu do usuário e em seguida em **Divulgação de Compras**.
+Agora que você está autenticado no sistema, precisa criar um novo processo de licitação. Siga os passos abaixo para registrar os dados básicos da sua compra.
+
+### Passo 1: Acessar o Menu de Licitações
+
+Na página principal do Compras.gov.br (após fazer login), localize o menu do usuário (geralmente no canto superior da tela) e clique em **Divulgação de Compras**. Este menu dá acesso às ferramentas para criar e gerenciar licitações.
 
 ![](imagens/02c_compras_gov.png){ width=100% fig-align=center }
 
-A tela principal do SIASGnet será exibida. No menu, clique em **Licitação** > **Incluir Licitação Tradicional**.
+### Passo 2: Criar uma Licitação Tradicional
+
+Você será redirecionado para a tela principal do SIASGnet (o sistema que gerencia licitações do governo). No menu lateral, clique em **Licitação** e depois escolha **Incluir Licitação Tradicional**.
+
+::: {.callout-note}
+**Licitação Tradicional** é a forma mais comum de realizar compras governamentais. É o tipo que você deve usar na maioria dos casos.
+:::
 
 ![](imagens/03_siasg.png){ width=80% fig-align=center }
 
-Preencha todos os campos obrigátórios, tais como:
+### Passo 3: Preencher os Dados Básicos da Licitação
 
-- Modalidade de Licitação;
-- Forma de Realização;
-- Modo de Disputa;
-- Valor Total da Compra (R$);
-- Quantidade de Itens;
-- Objeto;
-- CPF do Responsável etc.
+Agora você precisa informar as características principais da sua licitação. Preencha todos os campos obrigatórios (aqueles marcados com asterisco *), tais como:
+
+**Informações sobre o tipo de compra:**
+- **Modalidade de Licitação**: o tipo de processo que você está usando (por exemplo: Concorrência, Tomada de Preços, Convite)
+- **Forma de Realização**: se será presencial ou eletrônica (online)
+- **Modo de Disputa**: como as empresas vão competir (menor preço, técnica e preço, etc.)
+
+**Informações sobre a compra:**
+- **Objeto**: o que você está comprando (material de consumo, serviços, obras, etc.). Descreva de forma clara
+- **Quantidade de Itens**: quantos itens diferentes fazem parte desta licitação
+- **Valor Total da Compra (R$)**: o orçamento total estimado para toda a licitação
+
+**Informação sobre o responsável:**
+- **CPF do Responsável**: o CPF da pessoa que está registrando esta licitação no sistema
 
 ::: {.callout-tip}
-**CPF do Responsável:** Clique no ícone da lupa após informar um CPF válido, para que o nome do responsável seja buscado automaticamente.
+**CPF do Responsável:** Depois de digitar um CPF válido, clique no ícone da lupa ao lado. O sistema buscará automaticamente o nome completo da pessoa associada àquele CPF. Isso economiza tempo e evita erros de digitação.
 :::
 
-Clique em **Salvar**, na parte inferior da página.
+### Passo 4: Salvar a Licitação
+
+Quando terminar de preencher todos os campos obrigatórios, clique no botão **Salvar**, localizado na parte inferior da página.
 
 ![](imagens/04_siasg.png){ width=80% fig-align=center }
 
-Certifique-se de que a licitação foi cadastrada com sucesso.
+### Passo 5: Confirmar o Cadastro
+
+Ao completar o cadastro, o sistema exibirá uma mensagem de confirmação indicando que a licitação foi criada com sucesso. Você verá um resumo dos dados que acabou de inserir.
 
 ![](imagens/05_siasg.png){ width=80% fig-align=center }
+
+::: {.callout-tip}
+Guarde o número de identificação da licitação para futuras referências. Você usará este número para rastrear o processo.
+:::
+
+Parabéns! Você criou com sucesso a licitação no sistema. Agora você pode prosseguir para as próximas etapas, como o cadastramento dos itens que serão licitados.

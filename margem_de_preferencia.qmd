@@ -1,3 +1,13 @@
-# 🥈 Margem de preferência CICS {.unnumbered}
+# Margem de preferência {.unnumbered}
 
-Clique [aqui](https://www.gov.br/compras/pt-br/acesso-a-informacao/manuais/manual-fase-externa/manual-compras-gov.br/margem-de-preferencia-tutorial-governo.pdf) para acessar o tutorial.
+Os tutoriais abaixo foram produzidos à época do lançamento das novas funcionalidades do Compras.gov.br, para registro de licitações contendo itens que concorrem com margem de preferência, em 2024 e permanecem atuais em grande medida.
+
+Em 2025, houve uma evolução do sistema para que o agente de contratação pudesse indicar se a margem de preferência a que um item da licitação faz jus é regulamentado pela CICS ou pela CIIA-PAC. Nessa mesma ocasião, o cadastro de licitações com exigência de conteúdo local passou a ser possível
+
+::: {.callout-note}
+Se você também precisa incluir requisitos de conteúdo local em sua licitação, consulte o [tutorial específico sobre conteúdo local](conteudo_local.qmd).
+:::
+
+[Tutorial para o agente de contratação](https://www.gov.br/compras/pt-br/acesso-a-informacao/manuais/manual-fase-externa/manual-compras-gov.br/margem-de-preferencia-tutorial-governo.pdf)
+
+[Tutorial para o fornecedor](https://www.gov.br/compras/pt-br/acesso-a-informacao/manuais/manual-fase-externa/manual-compras-gov.br/margem-de-preferencia-tutorial-governo.pdf)
