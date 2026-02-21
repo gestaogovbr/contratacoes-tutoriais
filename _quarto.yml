@@ -3,11 +3,11 @@ project:
   output-dir: docs
 
 book:
-  subtitle: Versão 0.1
-  date: "2026-02-20"
   title: |
     **Tutoriais Compras.gov.br**
     *para Conteúdo Local e Margem de Preferência*
+  subtitle: Versão 0.2
+  date: "2026-02-21"
   repo-url: https://github.com/gestaogovbr/contratacoes-tutoriais
   repo-actions: [edit, issue]
   chapters:
