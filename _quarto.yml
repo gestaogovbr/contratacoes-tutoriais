@@ -3,9 +3,11 @@ project:
   output-dir: docs
 
 book:
-  title: "🛒 *Tutorial Compras.gov.br* – Conteúdo Local e Margem de Preferência"
   subtitle: Versão 0.1
   date: "2026-02-20"
+  title: |
+    **Tutoriais Compras.gov.br**
+    *para Conteúdo Local e Margem de Preferência*
   chapters:
     - index.qmd
     - conteudo_local.qmd

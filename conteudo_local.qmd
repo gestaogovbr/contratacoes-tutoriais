@@ -1,4 +1,4 @@
-# 🇧🇷 Requisito de conteúdo local {.unnumbered}
+# Requisito de conteúdo local {.unnumbered}
 
 Quando uma licitação possui itens com exigência de conteúdo local, o agente de contratação deve informar tal requisito durante o cadastro da compra no sistema. O passo-a-passo é detalhado abaixo.
 
